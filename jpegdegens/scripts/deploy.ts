@@ -1,6 +1,5 @@
 import "@nomiclabs/hardhat-ethers";
 import { ethers } from "hardhat";
-import { addEmitHelpers, textChangeRangeIsUnchanged } from "typescript";
 
 const deploy = async () => {
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
